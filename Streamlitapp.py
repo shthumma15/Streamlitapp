@@ -34,6 +34,7 @@ def forward_fill(df):
     df_filled = df.apply(lambda col: col.fillna(method='ffill') if col.isnull().any() else col, axis=0)
     return df_filled
 
+df = get_data()
 train1  = forward_fill(df)
 train1.isnull().sum()
 
