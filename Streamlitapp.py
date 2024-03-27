@@ -13,7 +13,7 @@ from utils.modeling import *
 
 
 REMOTE_DATA = 'Train_subset.csv'
-df = pd.read_csv("Train_subset.csv")
+# df = pd.read_csv("Train_subset.csv")
 
 load_dotenv()
 
