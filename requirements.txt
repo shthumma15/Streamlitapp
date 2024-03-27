@@ -117,6 +117,7 @@ rpds-py
 s3transfer
 scikit-learn
 scipy
+seaborn
 Send2Trash
 six
 smmap
